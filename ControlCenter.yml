@@ -1,0 +1,42 @@
+context:
+  expressions:
+    Light:
+      - (tôi) (@want) (bạn) (@please) (@for) (tôi) $state:state đèn (@okay)
+      - (tôi) (@want) (bạn) (@please) $state:state đèn (@for) (tôi) (@okay)
+    Fan:
+      - (tôi) (@want) (bạn) (@please) $state:state quạt ($level:level) (@for)
+        (tôi) (@okay)
+      - (tôi) (@want) (bạn) (@please) (@for) (tôi) $state:state quạt
+        ($level:level) (@okay)
+  slots:
+    state:
+      - bật
+      - tắt
+    level:
+      - số bốn
+      - số ba
+      - số hai
+      - số một
+  macros:
+    please:
+      - làm ơn
+      - có thể
+      - hãy
+    for:
+      - hộ
+      - cho
+      - giúp
+    okay:
+      - đi nè
+      - đi nha
+      - đi chứ
+      - đi nhé
+      - nha
+      - nhé
+      - đi
+      - với
+      - không
+      - được không
+    want:
+      - muốn
+      - cần
